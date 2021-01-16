@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Home = () => {
   return (
     <div>
-      <h2>Bem vindo ao site QuaseTudo</h2>
+      <h2>Bem vindo ao site QuaseTudo - Dev. FullStack Genildo Araujo</h2>
       <Contador />
     </div>
   )
