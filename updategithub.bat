@@ -1,0 +1,1 @@
+cmd /c (start /b /d "E:\BKP_GENILDO_OPPY\PROJETOS GITHUB genildoaraujo77\quasetudo" "%cd%" "C:\Program Files\Git\git-bash.exe" -i -c "git add .;git commit -m "%date%"; git push https://github.com/genildoaraujo77/quasetudo.git master -f; exec bash") && pause
