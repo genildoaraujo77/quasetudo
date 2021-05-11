@@ -1,5 +1,6 @@
-import React from 'react';
-import Head from '../components/Head';
+import React from 'react'
+import Head from '../components/Head'
+import MelhorEnvio from '../integracoes/MelhorEnvio'
 
 const Home = () => {
   return (
@@ -93,7 +94,7 @@ const Home = () => {
             <p className="cartao__texto">5 manutenções mensais</p>
             <p className="cartao__texto">App SEO</p>
             <p className="cartao__texto">1 sistema operacional</p>
-            <a href="plano.html" className="cartao__botao cartao__botao--start botao">Assinar plano</a>
+            <a href="#" className="cartao__botao cartao__botao--start botao">Assinar plano</a>
           </article>
         </li>
         <li className="cartao cartao--ultra">
@@ -159,6 +160,7 @@ const Home = () => {
         <li className="rodape__link"><a href="#">Contato</a></li>
       </ul>
     </nav>
+    <button onClick={MelhorEnvio}>Gerar Token</button>
   </footer>
         </body>
     </>
